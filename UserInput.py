@@ -66,5 +66,5 @@ def convert_audio_to_equation(recognized_text, debug = False):
 if __name__ == '__main__':
     #example_input = "1 + 4X raised to 2 is equal to 9"
     #convert_audio_to_equation(example_input)
-    user_input = recognizeaudio(return_existing = True, save_current= True)
+    user_input = recognizeaudio(return_existing = False, save_current= False)
     convert_audio_to_equation(user_input, debug = False)
