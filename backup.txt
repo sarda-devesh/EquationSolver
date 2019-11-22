@@ -1,0 +1,1 @@
+1 + 1 * 4X raised to 2 is equal to 9
